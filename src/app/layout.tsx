@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Inter, Poppins } from "next/font/google";
 import Footer from "./components/Footer";
-import { CartProvider } from "./context/CartContext";
+
 
 
 // Google Fonts configuration
@@ -24,11 +24,7 @@ const geistSans = localFont({
   weight: "100 900",
 });
 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+
 
 // Metadata for the application
 export const metadata: Metadata = {
@@ -46,9 +42,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         {/* Navbar Component */}
-        <CartProvider>
-          <div> {children}</div>
-        </CartProvider>
+
+        <div> {children}</div>
+
 
         {/* Main content */}
 

@@ -12,15 +12,11 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BsSuitHeart } from "react-icons/bs";
-import Cart from '../components/Cart';
-import { CartContext } from '../context/CartContext';
-import React, { useContext } from 'react';
+import React from 'react';
 
 const page = () => {
-    const { showCart, setShowCart }: any = useContext(CartContext);
-    const handleClick = () => {
-        setShowCart(!showCart)
-    }
+
+
     return (
         <div>
             <nav className="flex justify-between items-center w-full h-[100px] sm:h-[120px] bg-[#ffffff] px-6">
@@ -43,12 +39,12 @@ const page = () => {
                         </Link>
                         <IoSearchOutline className="hover:text-blue-500 cursor-pointer" />
                         <FaRegHeart className="hover:text-blue-500 cursor-pointer" />
-                        <Link className='cart-icon' onClick={handleClick} href="/Asgard">
-                            <BsCart3 className="hover:text-blue-500 cursor-pointer" />
-                        </Link>
+
+                        <BsCart3 className="hover:text-blue-500 cursor-pointer" />
+
                     </div>
                 </div>
-                {showCart && <Cart />}
+
 
             </nav>
 
