@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
 import { Inter, Poppins } from "next/font/google";
 import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
+
 
 // Google Fonts configuration
 const inter = Inter({
@@ -51,7 +51,7 @@ export default function RootLayout({
         </CartProvider>
 
         {/* Main content */}
-       
+
         {/* Footer Component */}
         <Footer />
       </body>

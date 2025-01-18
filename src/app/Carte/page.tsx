@@ -1,13 +1,11 @@
 import React from 'react'
-import { BsCart3 } from 'react-icons/bs';
 import Link from 'next/link';
 import { FaRegHeart } from 'react-icons/fa6';
 import { IoSearchOutline, IoPersonOutline, IoAlert } from 'react-icons/io5';
 import Image from 'next/image';
-import Meubel from "./images/Meubel.png";
-import Bed from "./images/Bed.png";
-import Ant from "./images/Ant.png";
 import { SlArrowRight } from "react-icons/sl";
+import { BsCart3 } from 'react-icons/bs';
+
 
 
 const Cart = () => {
