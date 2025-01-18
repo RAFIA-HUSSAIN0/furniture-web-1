@@ -1,14 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbart'; // Adjust the path if necessary
-import { FaPhoneAlt, FaRegClock } from 'react-icons/fa';
-import { FaRegHeart } from 'react-icons/fa6';
-import { IoSearchOutline, IoPersonOutline, IoAlert } from 'react-icons/io5';
+import { IoPersonOutline, IoAlert, IoSearchOutline } from 'react-icons/io5';
 import { BsCart3 } from 'react-icons/bs';
-import Grid from '../components/Grid';
 import { FaLocationDot } from "react-icons/fa6";
 import { GoClockFill } from "react-icons/go";
-
 import Link from 'next/link';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -33,10 +29,10 @@ const Contact = () => {
               </span>
             </Link>
             <IoSearchOutline className="hover:text-blue-500 cursor-pointer" />
-            <FaRegHeart className="hover:text-blue-500 cursor-pointer" />
-            <Link href="/Asgard">
-              <BsCart3 className="hover:text-blue-500 cursor-pointer" />
-            </Link>
+
+
+            <BsCart3 className="hover:text-blue-500 cursor-pointer" />
+
           </div>
         </div>
       </nav>
