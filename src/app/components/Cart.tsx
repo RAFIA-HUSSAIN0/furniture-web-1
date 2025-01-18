@@ -1,11 +1,10 @@
 import React, { useContext } from 'react';
 import { BsBagX, BsFillXCircleFill } from 'react-icons/bs'
 import Image from 'next/image';
-import { CartContext } from '../context/CartContext';
+
 const Cart = () => {
-    const { showCart, setShowCart }: any = useContext(CartContext);
+
     const handleClose = () => {
-        setShowCart(!showCart)
 
     }
     return (
