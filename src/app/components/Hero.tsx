@@ -1,21 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { IoMdTime } from "react-icons/io";
-import InstagramBg from '../images/instagram-bg.png';
-import { FaRegHeart } from "react-icons/fa6";
-import { IoSearchOutline } from "react-icons/io5";
-import { BsCart3 } from "react-icons/bs";
-import { IoPersonOutline } from "react-icons/io5";
-import { IoAlert } from "react-icons/io5";
 import { MdOutlineWatchLater } from "react-icons/md";
-import instagram from "./images/instagram.png";
 import { HiMiniCalendar } from "react-icons/hi2";
-import Chairs from './images/Chairs.png';
-import Mez from './images/Mez.png';
-import Sample from './images/Sample.png';
-import Simple from './images/Simple.png';
-import Bed from './images/Bed.png';
 
 
 

@@ -5,8 +5,8 @@ import { FaRegHeart } from 'react-icons/fa6';
 import { IoSearchOutline, IoPersonOutline, IoAlert } from 'react-icons/io5';
 import Image from 'next/image';
 import { SlArrowRight } from "react-icons/sl";
-import Blog from './images/Blogpic.png';
-import Blogblog from './images/Blogblog.png';
+
+
 
 const About = () => {
     return (
@@ -70,7 +70,7 @@ const About = () => {
                             </ul>
 
                             <ul className='flex justify-between mt-[30px] mx-12'>
-                                <li className='font-poppins font-normal text-[#9F9F9F] text-[16px] '>font-[</li>
+                                <li className='font-poppins font-normal text-[#9F9F9F] text-[16px] '>font-</li>
                                 <li className='font-poppins font-normal text-[#9F9F9F] text-[16px] '>2</li>
                             </ul>
 

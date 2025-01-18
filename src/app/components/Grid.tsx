@@ -1,19 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import Simple from "./images/Simple.png";
-import Chairs from "./images/Chairs.png";
-import Sample from "./images/Sample.png";
+
 import Link from 'next/link';
-import Prod from "./images/Prod.png";
-import Round from "./images/Round.png.png";
-import Mychair from "./images/Mychair.png";
-import Reclaimed from "./images/Reclaimed.png";
-import Roundn from "./images/Round.png";
-import Three from "./images/Three.png";
-import Set from "./images/Set.png";
-import White from "./images/White.png";
-import Table from "./images/Table.png";
-import Thin from "./images/Thin.png";
+
+
+
+
 
 
 

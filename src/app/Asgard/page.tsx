@@ -6,14 +6,6 @@ import { FaRegHeart } from 'react-icons/fa6';
 import { IoSearchOutline, IoPersonOutline, IoAlert } from 'react-icons/io5';
 import Image from 'next/image';
 import { SlArrowRight } from "react-icons/sl";
-import Home from '../page';
-import Set from './images/Set.png';
-import Two from './images/Two.png';
-import Three from './images/Three.png';
-import Four from './images/Four.png';
-import Corner from './imagesCorner.png';
-import Streat from './images/Streat.png';
-import Bed from './images/Bed.png';
 import { FaStarHalf } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -112,9 +104,9 @@ const page = () => {
                             <button className='w-[30px] h-[30px] rounded-full bg-[#CDBA7B]    '></button>
                         </div>
                         <div className=' mt-[20px] '>
-                            <button className='w-[123px] h-[64px] rounded-lg border border-[#9F9F9F] text-[#000000S] font-poppins font-medium  text-[16px] leading-[24px] '> 
+                            <button className='w-[123px] h-[64px] rounded-lg border border-[#9F9F9F] text-[#000000S] font-poppins font-medium  text-[16px] leading-[24px] '>
                                 <span>-</span>
-                                <span className='mx-[18px] '>1</span> 
+                                <span className='mx-[18px] '>1</span>
                                 <span>+</span></button>
                             <Link href="/Carte"><button className='w-[215px]  ml-[20px] h-[64px] rounded-lg border border-[#9F9F9F] text-[#000000S] font-poppins font-normal  text-[20px] hover:text-blue-500 leading-[30px] '> Add To Cart</button></Link>
                         </div>
